@@ -1,0 +1,11 @@
+mime4lighttpd
+===============
+
+I was struggling with MIME-types for Lighttpd.  The samples on the web weren't working for my FastCGI application.  I
+found a complete MIME types files for ngnix, so I wrote this script to convert it to Lighttpd.
+
+Syntax:
+
+    mime4lighttpd /path/to/nginx/mime.types
+
+You will get a file called "mime.out".  Cat that into your Lighttpd file.
