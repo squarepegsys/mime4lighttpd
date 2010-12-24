@@ -9,3 +9,4 @@ Syntax:
     mime4lighttpd /path/to/nginx/mime.types
 
 You will get a file called "mime.out".  Cat that into your Lighttpd file.
+This file was modified by IntelliJ IDEA 10.0.1 for binding GitHub repository
